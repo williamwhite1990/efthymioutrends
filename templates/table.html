@@ -1,0 +1,58 @@
+<style>
+    table {
+        width: auto;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 2px;
+    }
+    th[colspan="2"] {
+        text-align: center;
+    }
+</style>
+
+
+<table>
+    <tr>
+        <th></th>
+        <th colspan="2">Brace A</th>
+        <th colspan="2">Brace B</th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>chordside</th>
+        <th>braceside</th>
+        <th>chordside</th>
+        <th>braceside</th>
+    </tr>
+    <tr>
+        <td>Axial Crown</td>
+        <td>{{ kjt_obj.scf_axial_a_chord_crown }}</td>
+        <td>{{ kjt_obj.scf_axial_a_brace_crown }}</td>
+        <td>{{ kjt_obj.scf_axial_b_chord_crown }}</td>
+        <td>{{ kjt_obj.scf_axial_b_brace_crown }}</td>
+    </tr>
+    <tr>
+        <td>Axial Saddle</td>
+        <td>{{ kjt_obj.scf_axial_a_chord_saddle }}</td>
+        <td>{{ kjt_obj.scf_axial_a_brace_saddle }}</td>
+        <td>{{ kjt_obj.scf_axial_b_chord_saddle }}</td>
+        <td>{{ kjt_obj.scf_axial_b_brace_saddle }}</td>
+    </tr>
+    <tr>
+        <td>IPB</td>
+        <td>{{ kjt_obj.scf_ipb_a_chord_crown }}</td>
+        <td>{{ kjt_obj.scf_ipb_a_brace_crown }}</td>
+        <td>{{ kjt_obj.scf_ipb_b_chord_crown }}</td>
+        <td>{{ kjt_obj.scf_ipb_b_brace_crown }}</td>
+    </tr>
+    <tr>
+        <td>OPB</td>
+        <td>{{ kjt_obj.scf_opb_a_chord_saddle }}</td>
+        <td>{{ kjt_obj.scf_opb_a_brace_saddle }}</td>
+        <td>{{ kjt_obj.scf_opb_b_chord_saddle }}</td>
+        <td>{{ kjt_obj.scf_opb_b_brace_saddle }}</td>
+    </tr>
+</table>
